@@ -1,0 +1,26 @@
+{
+  "name": "ionic-context-menu",
+  "version": "1.0.0",
+  "description": "A set of Angular-Components for context menus in Ionic V4 Apps.",
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0",
+    "@ionic/angular": "^4.0.0-beta.7 || ^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smartin85/ionic-context-menu.git"
+  },
+  "keywords": [
+    "angular",
+    "ionic",
+    "context-menu",
+    "popover"
+  ],
+  "author": "Smartin Nematronic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smartin85/ionic-context-menu/issues"
+  },
+  "homepage": "https://github.com/smartin85/ionic-context-menu#readme"
+}
