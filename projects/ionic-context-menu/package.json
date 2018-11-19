@@ -1,6 +1,6 @@
 {
   "name": "ionic-context-menu",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A set of Angular-Components for context menus in Ionic V4 Apps.",
   "peerDependencies": {
     "@angular/common": "^6.0.0-rc.0 || ^6.0.0",

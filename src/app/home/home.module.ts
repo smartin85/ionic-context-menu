@@ -5,7 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 
 import { HomePage } from './home.page';
-import { IonicContextMenuModule } from 'ionic-context-menu';
+import { IonicContextMenuModule } from '../../../dist/ionic-context-menu';
 
 
 @NgModule({
@@ -23,4 +23,4 @@ import { IonicContextMenuModule } from 'ionic-context-menu';
   ],
   declarations: [HomePage]
 })
-export class HomePageModule {}
+export class HomePageModule { }
