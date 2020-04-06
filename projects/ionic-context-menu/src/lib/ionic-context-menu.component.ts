@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { PopoverController } from '@ionic/angular';
 import { IonicContextMenuContentComponent } from './ionic-context-menu-content.component';
 
@@ -20,7 +20,7 @@ import { IonicContextMenuContentComponent } from './ionic-context-menu-content.c
 })
 export class IonicContextMenuComponent {
   popover: HTMLIonPopoverElement;
-  icon: string;
+  @Input() icon: string;
 
   constructor(private popoverCtrl: PopoverController) { }
 
@@ -30,7 +30,7 @@ export class IonicContextMenuComponent {
       componentProps: {
         template: child
       },
-      event: event,
+      event,
       translucent: true
     });
     return await this.popover.present();
