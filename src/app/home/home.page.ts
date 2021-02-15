@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-
+  log(value: number) {
+    console.log(value);
+  }
 }

@@ -5,7 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 
 import { HomePage } from './home.page';
-import { IonicContextMenuModule } from '../../../dist/ionic-context-menu';
+import { IonicContextMenuModule } from 'ionic-context-menu';
 
 
 @NgModule({

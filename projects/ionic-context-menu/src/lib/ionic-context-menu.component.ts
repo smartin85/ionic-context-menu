@@ -6,8 +6,8 @@ import { IonicContextMenuContentComponent } from './ionic-context-menu-content.c
   selector: 'ionic-context-menu',
   template: `
     <div>
-      <ion-button (click)="present(template)">
-        <ion-icon slot="end" [name]="icon || 'more'"></ion-icon>
+      <ion-button (click)="present(template, $event)">
+        <ion-icon slot="end" [name]="icon || 'ellipsis-vertical'"></ion-icon>
       </ion-button>
       <ng-template #template>
         <div (click)="popover.dismiss()">
@@ -24,7 +24,7 @@ export class IonicContextMenuComponent {
 
   constructor(private popoverCtrl: PopoverController) { }
 
-  async present(child) {
+  async present(child, event) {
     this.popover = await this.popoverCtrl.create({
       component: IonicContextMenuContentComponent,
       componentProps: {
